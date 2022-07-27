@@ -18,7 +18,7 @@
       rel="stylesheet"
     />
 
-    <!-- FONT AWSOME -->
+    <!-- FONT AWESOME -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -41,28 +41,31 @@
   </head>
   <body>
     <!-- HEADER -->
-    <header id="header" class="flex flex-jc-sb">
+    <header id="header" class="header flex jc-sb">
       <!-- LOGO -->
       <div class="logo">
         <a href="#">
           <img src="./images/logo.svg" alt="Easybank logo" class="logo-img" />
         </a>
       </div>
-
-      <!-- BARS  -->
-      <div class="header-toggle-bars">
-        <i class="fa fa-bars"></i>
-      </div>
-
       <!-- NAVBAR -->
-      <nav class="nav-bar">
-        <ul class="nav-links">
-          <li class="nav-link">Home</li>
-          <li class="nav-link">About</li>
-          <li class="nav-link">Contact</li>
-          <li class="nav-link">Blog</li>
-          <li class="nav-link">Careers</li>
+      <nav id="navbar" class="navbar flex">
+        <!-- end of logo -->
+
+        <!-- BARS  -->
+        <span class="toggle-bars">
+          <i class="fa fa-bars"></i>
+        </span>
+        <!-- nav-links -->
+        <ul class="nav-links flex">
+          <li class="nav-link"><a href="#">Home</a></li>
+          <li class="nav-link"><a href="#">About </a></li>
+          <li class="nav-link"><a href="#">Contact</a></li>
+          <li class="nav-link"><a href="#">Blog</a></li>
+          <li class="nav-link"><a href="#">Careers</a></li>
         </ul>
+        <!-- end of nav-links -->
+        <button class="nav-btn btn">Request Invite</button>
       </nav>
     </header>
     <!-- Home About Contact Blog Careers Request Invite Next generation digital

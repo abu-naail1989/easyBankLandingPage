@@ -32,7 +32,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Public Sans", sans-serif;
+  color: var(--grayishBlue);
   line-height: 1.4;
+  font-weight: 300;
   font-size: 1rem;
 }
 
@@ -43,12 +45,16 @@ body {
 
 /*  Justify content- space-between */
 .jc-sb {
-  justify-content: center;
+  justify-content: space-between;
 }
 
 /* Justify content- center  */
 .jc-c {
   justify-content: center;
+}
+/* Justify content- center  */
+.jc-fle {
+  justify-content: flex-end;
 }
 
 /* // Align-items-center */
@@ -58,9 +64,31 @@ body {
 
 /*  HEADER  */
 
-/* .header {
+.header {
+  margin: 24px;
+}
+.header a {
+  text-decoration: none;
+  margin: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--grayishBlue);
+}
+.nav-link {
+  list-style-type: none;
+}
+/* .nav-links {
+  margin: 2.5rem;
+  padding: 2.5rem;
 } */
-
 .toggle-bars {
-  background-color: darkBlue;
+  color: darkBlue;
+  margin: 0.5rem;
+}
+.nav-btn {
+  padding: 1rem 1.875rem;
+  border-radius: 50px;
+  cursor: pointer;
+  background: linear-gradient(to right, var(--limeGreen), var(--brightCyan));
+  color: var(--white);
+  font-weight: 400;
 }
