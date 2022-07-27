@@ -35,7 +35,7 @@ body {
   color: var(--grayishBlue);
   line-height: 1.4;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 1.8rem;
 }
 
 /* FLEXBOX STYLES */
@@ -70,7 +70,7 @@ body {
 .header a {
   text-decoration: none;
   margin: 0.5rem;
-  font-size: 0.875rem;
+  font-size: 1.8rem;
   color: var(--grayishBlue);
 }
 .nav-link {
@@ -85,10 +85,28 @@ body {
   margin: 0.5rem;
 }
 .nav-btn {
-  padding: 1rem 1.875rem;
-  border-radius: 50px;
+  padding: 0.5rem 1.875rem;
+  border-radius: 100px;
   cursor: pointer;
+  margin: 0 3rem;
   background: linear-gradient(to right, var(--limeGreen), var(--brightCyan));
   color: var(--white);
-  font-weight: 400;
+  font-weight: 700;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 60em) {
+  /* hide nav-links for mobile */
+  .hide-for-mobile {
+    display: none;
+  }
+}
+@media screen and (min-width: 61em) {
+  /* hide nav-links for desktop */
+  .hide-for-desktop {
+    display: none;
+  }
+  .nav-links {
+    /* margin-right: 10rem; */
+  }
 }
