@@ -1,0 +1,66 @@
+/* VARIABLES */
+
+/* // COLORS */
+
+:root {
+  /* // ### Primary */
+  --darkBlue: hsl(233, 26%, 24%);
+  --limeGreen: hsl(136, 65%, 51%);
+  --brightCyan: hsl(192, 70%, 51%);
+
+  /* // ### Neutral */
+  --grayishBlue: hsl(233, 8%, 62%);
+  --lightGrayishBlue: hsl(220, 16%, 96%);
+  --veryLightGray: hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 100%);
+}
+
+/* GLOBAL STYLES */
+html {
+  /* 62.5% of 16px browser font size is 10px */
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Public Sans", sans-serif;
+  line-height: 1.4;
+  font-size: 1rem;
+}
+
+/* FLEXBOX STYLES */
+.flex {
+  display: flex;
+}
+
+/*  Justify content- space-between */
+.jc-sb {
+  justify-content: center;
+}
+
+/* Justify content- center  */
+.jc-c {
+  justify-content: center;
+}
+
+/* // Align-items-center */
+.ai-c {
+  align-items: center;
+}
+
+/*  HEADER  */
+
+/* .header {
+} */
+
+.toggle-bars {
+  background-color: darkBlue;
+}
