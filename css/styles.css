@@ -113,10 +113,23 @@ body {
   padding: 1.7rem 2.4rem;
 }
 .toggle-bars {
-  margin: 0.5rem;
   background-color: transparent;
   border: none;
   color: var(--grayishBlue);
+}
+.hide-toggle-bars {
+  display: none;
+  transition: var(--transition);
+}
+.close-btn {
+  background-color: transparent;
+  border: none;
+  color: var(--grayishBlue);
+  display: none;
+}
+.show-close-btn {
+  display: block;
+  transition: var(--transition);
 }
 .request-invite-btn {
   padding: 1.2rem 3.5rem;
@@ -133,13 +146,13 @@ body {
 }
 /* MEDIA QUERIES */
 @media screen and (max-width: 60em) {
-  /* hide nav-links for mobile */
+  /* hide nav-links for desktop */
   .hide-for-mobile {
     display: none;
   }
 }
 @media screen and (min-width: 61em) {
-  /* hide nav-links for desktop */
+  /* hide toggle bars and close btn for for mobile */
   .hide-for-desktop {
     display: none;
   }
