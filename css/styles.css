@@ -68,7 +68,7 @@ body {
 /*  HEADER  */
 
 .header {
-  margin: 24px;
+  /* margin: 24px 0; */
 }
 .nav-link {
   position: relative;
@@ -148,11 +148,10 @@ body {
 }
 
 .overlay {
-  /* opacity: 0; */
   position: fixed;
   left: 0;
   right: 0;
-  top: 10rem;
+  top: 0;
   bottom: 0;
   background: linear-gradient(var(--darkBlue), transparent);
 }
@@ -161,7 +160,7 @@ body {
   visibility: hidden;
   width: calc(100% - 4rem);
   left: 50%;
-  top: 14rem;
+  top: 11rem;
   /* margin-top: 2.4rem; */
   transform: translateX(-50%);
   background: var(--white);
