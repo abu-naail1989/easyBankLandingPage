@@ -208,7 +208,6 @@ body {
 }
 .btn-container {
   text-align: center;
-  margin-top: -2.5rem;
 }
 .hero-btn {
   display: inline-block;
@@ -224,5 +223,21 @@ body {
   /* hide toggle bars and close btn for for mobile */
   .hide-for-desktop {
     display: none;
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+    max-width: 113rem;
+    margin: auto;
+  }
+  .hero-img {
+    flex: 3.3;
+    order: 2;
+    height: 65rem;
+    background: url("/images/bg-intro-desktop.svg") left center;
+  }
+  .hero-text {
+    flex: 1.7;
+    order: 1;
   }
 }
