@@ -231,13 +231,13 @@ body {
     margin: auto;
   }
   .hero-img {
-    flex: 3.3;
+    flex: 3.1;
     order: 2;
     height: 65rem;
     background: url("/images/bg-intro-desktop.svg") left center;
   }
   .hero-text {
-    flex: 1.7;
+    flex: 1.9;
     order: 1;
   }
 }
