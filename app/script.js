@@ -11,7 +11,7 @@ function getElement(selection) {
 const overlay = getElement("#overlay"); //overlay
 const mbNavLinks = getElement(".mb-Navlinks"); //select mobile nav links div
 const body = getElement(".body"); // select body
-const toggleBars = getElement(".toggle-bars");
+const toggleBars = getElement(".toggle-bars"); // select toggle bar
 
 toggleBars.addEventListener("click", () => {
   toggleBars.classList.add("hide-toggle-bars");
