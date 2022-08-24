@@ -8,7 +8,7 @@ function getElement(selection) {
   }
 }
 
-const overlay = getElement("#overlay"); //
+const overlay = getElement("#overlay"); //overlay
 const mbNavLinks = getElement(".mb-Navlinks"); //select mobile nav links div
 const body = getElement(".body");
 const toggleBars = getElement(".toggle-bars");
