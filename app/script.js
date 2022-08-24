@@ -7,10 +7,10 @@ function getElement(selection) {
     throw new Error(`Please check ${selection}. No such element exists`);
   }
 }
-
+//  ELEMENT SELECTION
 const overlay = getElement("#overlay"); //overlay
 const mbNavLinks = getElement(".mb-Navlinks"); //select mobile nav links div
-const body = getElement(".body");
+const body = getElement(".body"); // select body
 const toggleBars = getElement(".toggle-bars");
 
 toggleBars.addEventListener("click", () => {
